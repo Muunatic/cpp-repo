@@ -1,22 +1,20 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
-int main() {
+int main(int argc, char** argv) {
 
-    int a;
-    int b;
-    int c;
-    int result;
+    int a = 5678;
 
-    cout << "Input A: ";
-    cin >> a;
-    cout << "Input B: ";
-    cin >> b;
-    cout << "Input C: ";
+    int A = a/1000;
+    int B = ((a - A * 1000) / 100);
+    int C = ((a - A * 1000 - B * 100)/10);
+    int D = ((a - A * 1000 - B * 100 - C * 10));
 
-    result = (-b + sqrt(b * b - 4 * a * c) / 2 * a);
+    cout << A << endl;
+    cout << B << endl;
+    cout << C << endl;
+    cout << D << endl;
 
     return 0;
-    
+
 }
