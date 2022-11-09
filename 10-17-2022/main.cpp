@@ -3,7 +3,6 @@
 using namespace std;
 
 int main(int argc, char** argv) {
-
     int parameter, salary, time, result;
     string name;
 
@@ -43,5 +42,4 @@ int main(int argc, char** argv) {
     cout << endl;
 
 	return 0;
-	
 }

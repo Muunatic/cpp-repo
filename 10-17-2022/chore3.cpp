@@ -2,7 +2,6 @@
 using namespace std;
 
 int main(int argc, char** argv) {
-	
     int i, j, n, cnt;
     n = 1;
     cout << "Enter Number of Rows : ";
@@ -10,15 +9,14 @@ int main(int argc, char** argv) {
     cout << endl;
     
     for (i = 0; i < cnt; i++) {
-    	
+        
         for (j = 0; j <= i; j++) {
             cout << n <<" ";
-			n++;
+            n++;
         }
         
-		cout << endl;
+        cout << endl;
     }
     
-	return 0;
-	
+    return 0; 
 }
