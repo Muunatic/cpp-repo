@@ -19,7 +19,7 @@ int main() {
     // Output
     if (x > y && x > z) {
         cout << "Bilangan terbesar adalah " << x;
-    } else if (x > y && x > z) {
+    } else if (y > x && y > z) {
         cout << "Bilangan terbesar adalah " << y;
     } else if (z > y && z > x) {
         cout << "Bilangan terbesar adalah " << z;
