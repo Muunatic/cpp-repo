@@ -20,7 +20,7 @@ int main(int argc, char **argv) {
     int i, n;
     cin >> n;
 
-    if (n < 100) {
+    if (n < 10) {
         for (i = 0; i < n; i++) {
             cout << i << endl;
         }
